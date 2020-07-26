@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+          
+    <ion-title>
+      Profil Pengguna
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!-- <ion-title size="large">Tab 3</ion-title> -->
+    </ion-toolbar>
+  </ion-header>
+  <h1 style="text-align: center"><ion-icon name="person-circle-outline" style="width:100px; height:100px;"></ion-icon></h1>
+  <h3 style="text-align: center">{{authUser.full_name}}</h3>
+  <ion-list>
+        <ion-item>
+          <ion-label>
+            <h2><b>Username</b></h2>
+            <h3>{{authUser.username}}</h3>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <h2><b>Email</b></h2>
+            <h3>{{authUser.email}}</h3>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <br>
+      
+   <ion-button expand="block" size="large" color="light" (click)="logout()" padding>Logout</ion-button>
+
+</ion-content>

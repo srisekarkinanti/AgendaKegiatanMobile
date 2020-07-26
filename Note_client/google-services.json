@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768688718340",
+    "firebase_url": "https://ionic-agenda-kegiatan.firebaseio.com",
+    "project_id": "ionic-agenda-kegiatan",
+    "storage_bucket": "ionic-agenda-kegiatan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768688718340:android:3692a9ad479580aead2b51",
+        "android_client_info": {
+          "package_name": "com.ak.agendakegiatan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768688718340-qdsl7b82bdshrcpl1n876jpsk0cr76pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdrAhu0QZh3ju326BfICNqgvZwtyl5L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768688718340-qdsl7b82bdshrcpl1n876jpsk0cr76pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

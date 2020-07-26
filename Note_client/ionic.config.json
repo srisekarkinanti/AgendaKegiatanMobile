@@ -1,0 +1,7 @@
+{
+  "name": "Note_client",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
